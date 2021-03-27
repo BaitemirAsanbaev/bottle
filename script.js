@@ -3,6 +3,8 @@ let bottle = document.querySelector(".bottle");
 let nameInp = document.querySelector('#name');
 let btn = document.querySelector('.btn');
 let ind = 0;
+
+
 btn.addEventListener("click", () => {
     ind++;
     let player = document.createElement('div');

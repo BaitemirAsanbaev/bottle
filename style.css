@@ -43,3 +43,33 @@ body{
     top: 100px;
     left: 300px
 }
+#player2{
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 50px;
+    left: 700px
+}
+#player3{
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+}
+#player4{
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 500px;
+    left: 1100px
+}
+#player5{
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 600px;
+    left: 700px
+}
+#player6{
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 500px;
+    left: 300px
+}
