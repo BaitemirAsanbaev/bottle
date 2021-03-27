@@ -29,7 +29,6 @@ body{
 .player{
     width: 100px;
     height: 100px;
-    background-color: indigo;
     color: ivory;
     text-align: center;
     padding: 30px 10px;
@@ -37,4 +36,10 @@ body{
     position: absolute;
     top: 100px;
     left: 100px;
+}
+#player1{
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 100px;
+    left: 300px
 }
