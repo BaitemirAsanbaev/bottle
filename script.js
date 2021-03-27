@@ -10,8 +10,9 @@ btn.addEventListener("click", () => {
     let player = document.createElement('div');
     document.body.append(player);
     player.className = "player";
-    player.id = `player${ind}`
-    player.innerHTML = nameInp.value
+    player.id = `player${ind}`;
+    player.innerHTML = nameInp.value;
+    nameInp.value = '';
 })
 
 bottle.addEventListener("click", () => {
