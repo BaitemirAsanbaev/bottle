@@ -4,6 +4,16 @@ let nameInp = document.querySelector('#name');
 let btn = document.querySelector('.btn');
 let ind = 0;
 
+const dareList = [
+    "Смотреть на одного кажодого из участников и если кто то засмеётся то они целуются",
+    "Съесть пачку мятных жвачек и запить минералкой",
+    "Если захочет в туалет, то он должен спросить разрешение у каждого",
+    "Позвонить на рандомный номер и начать петь",
+    "Спародируй любого человека из присутствующих",
+    "Укуси сам себя за ногу или другого игрока",
+    "Понюхай других игроков и скажи, чем пахнет каждый",
+    "Встань возле туалета и как швейцар открывай двери всем входящим",
+]
 
 btn.addEventListener("click", () => {
     ind++;
@@ -23,7 +33,7 @@ bottle.addEventListener("click", () => {
     dare.style.zIndex = '3';
     dare.style.transitionDelay = '3s'
     dare.style.transitionDuration = '1s'
-    dare.innerText = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem dolor quaerat non facilis tenetur magni, aut odit, odio ea reiciendis at delectus, tempora accusamus voluptas dolorum! Quibusdam voluptas iure cupiditate."
+    dare.innerText = ""
 })
 
 dare.addEventListener("click", () => {
