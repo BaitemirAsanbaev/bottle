@@ -1,5 +1,15 @@
 let dare = document.querySelector('.dare');
 let bottle = document.querySelector(".bottle");
+let nameInp = document.querySelector('#name');
+let btn = document.querySelector('.btn');
+
+btn.addEventListener("click", () => {
+    let player = document.createElement('div');
+    document.body.append(player);
+    player.className = "player";
+    player.innerHTML = nameInp.value
+})
+
 bottle.addEventListener("click", () => {
     let randomNum = Math.floor(Math.random() * (1080 - 360)) + 360;
     bottle.style.transform = `rotate(${randomNum}deg)`;
