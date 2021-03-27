@@ -21,5 +21,12 @@ bottle.addEventListener("click", () => {
     dare.style.opacity = '100%';
     dare.style.zIndex = '3';
     dare.style.transitionDelay = '3s'
+    dare.style.transitionDuration = '1s'
     dare.innerText = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem dolor quaerat non facilis tenetur magni, aut odit, odio ea reiciendis at delectus, tempora accusamus voluptas dolorum! Quibusdam voluptas iure cupiditate."
+})
+
+dare.addEventListener("click", () => {
+    dare.style.opacity = "0%";
+    dare.style.zIndex = '1';
+    
 })
