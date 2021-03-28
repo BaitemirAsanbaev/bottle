@@ -3,7 +3,7 @@ let bottle = document.querySelector(".bottle");
 let nameInp = document.querySelector('#name');
 let btn = document.querySelector('.btn');
 let ind = 0;
-
+let i = 0
 const dareList = [
     "Смотреть на одного кажодого из участников и если кто то засмеётся то они целуются",
     "Съесть пачку мятных жвачек и запить минералкой",
@@ -14,6 +14,7 @@ const dareList = [
     "Понюхай других игроков и скажи, чем пахнет каждый",
     "Встань возле туалета и как швейцар открывай двери всем входящим",
 ]
+
 
 btn.addEventListener("click", () => {
     ind++;
@@ -33,7 +34,9 @@ bottle.addEventListener("click", () => {
     dare.style.zIndex = '3';
     dare.style.transitionDelay = '3s'
     dare.style.transitionDuration = '1s'
-    dare.innerText = ""
+    dare.innerText = dareList[i]
+    i++;
+
 })
 
 dare.addEventListener("click", () => {
