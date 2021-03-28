@@ -112,3 +112,6 @@ body{
     top: 450px;
     left: 450px
 }
+#player7{
+    display: none;
+}

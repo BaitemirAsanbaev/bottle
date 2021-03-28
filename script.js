@@ -17,8 +17,8 @@ const dareList = [
 
 btn.addEventListener("click", () => {
     ind++;
-    if(ind == 7){
-        ind = -9999;
+    if(ind >= 7){
+        ind = 7;
     }
     let player = document.createElement('div');
     document.body.append(player);
